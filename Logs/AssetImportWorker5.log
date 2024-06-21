@@ -1,0 +1,1127 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.25f1 (530ae0ba3889) revision 5442272'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ko' Physical Memory: 65298 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/bsh/Network/Deeplication
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+61059
+Successfully changed project path to: C:/bsh/Network/Deeplication
+C:/bsh/Network/Deeplication
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [62476] Host "[IP] 192.168.11.161 [Port] 0 [Flags] 2 [Guid] 1777028780 [EditorId] 1777028780 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GKJ93P0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [62476] Host "[IP] 192.168.11.161 [Port] 0 [Flags] 2 [Guid] 1777028780 [EditorId] 1777028780 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GKJ93P0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
+Refreshing native plugins compatible for Editor in 19.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.25f1 (530ae0ba3889)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/bsh/Network/Deeplication/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4090 (ID=0x2684)
+    Vendor:   NVIDIA
+    VRAM:     24142 MB
+    Driver:   31.0.15.5161
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.028534 seconds.
+- Loaded All Assemblies, in  0.361 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 357 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.585 seconds
+Domain Reload Profiling: 941ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (132ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (103ms)
+				TypeCache.ScanAssembly (92ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (586ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (548ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (436ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (74ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.500 seconds
+Refreshing native plugins compatible for Editor in 6.48 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.454 seconds
+Domain Reload Profiling: 947ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (280ms)
+		LoadAssemblies (299ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (76ms)
+			TypeCache.Refresh (65ms)
+				TypeCache.ScanAssembly (52ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (454ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (353ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1565 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (60.0 KB). Loaded Objects now: 2025.
+Memory consumption went from 97.9 MB to 97.8 MB.
+Total: 1.750900 ms (FindLiveObjects: 0.075200 ms CreateObjectMapping: 0.024000 ms MarkObjects: 1.573800 ms  DeleteObjects: 0.077200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BGRemover.cs: e087a5bf7c69f405fbd04a84f293392d -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 19465.223780 seconds.
+  path: Assets/UI button pack 2/Light Blue/download-2.png
+  artifactKey: Guid(85231c792230bc14c91f18911369558f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Light Blue/download-2.png using Guid(85231c792230bc14c91f18911369558f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '62ddfb7bbde8fbc46326cd7ff1c70287') in 0.110116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UI button pack 2/Light Blue/2-down-2.png
+  artifactKey: Guid(8a6d4cffe9edab04aa1303710b67da55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Light Blue/2-down-2.png using Guid(8a6d4cffe9edab04aa1303710b67da55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '004357b8b8c7b86dcfc2827d8b148d28') in 0.023467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Light Blue/FREE-2.png
+  artifactKey: Guid(e3b53fa477d752c43af238f34e6313bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Light Blue/FREE-2.png using Guid(e3b53fa477d752c43af238f34e6313bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5324f9f3315b8cb0948f2f2eacbcb5bf') in 0.025400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Light Blue/1-down-2.png
+  artifactKey: Guid(00715f4f72f2d6548b2af287ebdc2daf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Light Blue/1-down-2.png using Guid(00715f4f72f2d6548b2af287ebdc2daf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1ff06178a09f94e9893bb0c3f0e1fe17') in 0.022290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI button pack 2/Light Blue/3-right-2.png
+  artifactKey: Guid(1980f988bb88ce74d9e89284d39ccae2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Light Blue/3-right-2.png using Guid(1980f988bb88ce74d9e89284d39ccae2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '275df84176a39a8111dae607152efda4') in 0.023376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UI button pack 2/Light Blue/02.png
+  artifactKey: Guid(713484cd27997ba47a52613abbea80a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Light Blue/02.png using Guid(713484cd27997ba47a52613abbea80a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c656cb2a923423241564685dce60afd') in 0.023243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Black/ZOOM-BLACK.png
+  artifactKey: Guid(09d49f70e15fc5a43b47190fda812b98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Black/ZOOM-BLACK.png using Guid(09d49f70e15fc5a43b47190fda812b98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3827b846d09cc28ee1ec75e11e7f8f2b') in 0.023082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Blue/Pause-b.png
+  artifactKey: Guid(344f467ea2f18574bbab1de2874032c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Blue/Pause-b.png using Guid(344f467ea2f18574bbab1de2874032c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8a32e531703ecc0d3e27c1e20b66452a') in 0.022603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Light Blue/info-2.png
+  artifactKey: Guid(dfe8389253f5dcc47915af17b650a8e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Light Blue/info-2.png using Guid(dfe8389253f5dcc47915af17b650a8e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '36573a747519091c13b9f9503d9396eb') in 0.021707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.528158 seconds.
+  path: Assets/UI button pack 2/Light Blue/low-2.png
+  artifactKey: Guid(bbd10ca31ddf1c947bd02d11328ff5ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Light Blue/low-2.png using Guid(bbd10ca31ddf1c947bd02d11328ff5ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '609fe7bd6b837a4e8871e07072d31123') in 0.025684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI button pack 2/Light Blue/REMOVE-MEMBERS-2.png
+  artifactKey: Guid(58a59e15e1fcbfb429897a78d335c592) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Light Blue/REMOVE-MEMBERS-2.png using Guid(58a59e15e1fcbfb429897a78d335c592) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '40777d9542ff5d41f56b27b54efdb350') in 0.024685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Light Blue/menu-2.png
+  artifactKey: Guid(63c62f52091a08d49bcfa9687f64c2b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Light Blue/menu-2.png using Guid(63c62f52091a08d49bcfa9687f64c2b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4dbf4c7a7cd25124da83d7f1c9d0f759') in 0.025390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UI button pack 2/Light Blue/no-adds-2.png
+  artifactKey: Guid(9aeaa920453a91c40830de8da873ca14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Light Blue/no-adds-2.png using Guid(9aeaa920453a91c40830de8da873ca14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '27aefd994427365be48694c08e55ea2d') in 0.022363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI button pack 2/Lime/cart3.png
+  artifactKey: Guid(6bdb033b6a21e194a84244ef4e6ace1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Lime/cart3.png using Guid(6bdb033b6a21e194a84244ef4e6ace1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e413d4de432befc84f32804018ac63d2') in 0.025888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI button pack 2/Lime/download.png
+  artifactKey: Guid(443fc3981605f4141911c3156c137d23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Lime/download.png using Guid(443fc3981605f4141911c3156c137d23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5ec5c13e86b590bd06912385dcfd0358') in 0.021107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UI button pack 2/Lime/hint-3.png
+  artifactKey: Guid(f1baa91b6fb28a143acd804349400a08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Lime/hint-3.png using Guid(f1baa91b6fb28a143acd804349400a08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '912808f39acc9c79ecece41014274d4b') in 0.022131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/UI button pack 2/Light Blue/rounded-rect-2.png
+  artifactKey: Guid(c11bf2b438d99c843bad4ead024d93a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Light Blue/rounded-rect-2.png using Guid(c11bf2b438d99c843bad4ead024d93a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b9506a52f1879f282f746cd02244238') in 0.022427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI button pack 2/Light Blue/medium-2.png
+  artifactKey: Guid(0fef1671f93d943428d85184dac500b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Light Blue/medium-2.png using Guid(0fef1671f93d943428d85184dac500b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ffff25a7e44a3984c9f63861e6a329f4') in 0.024125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UI button pack 2/Light Blue/premuim-2.png
+  artifactKey: Guid(297b3686e70dd8e4c831f8586002ae7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Light Blue/premuim-2.png using Guid(297b3686e70dd8e4c831f8586002ae7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '08143fe7c93c49ccfbf849869e88c8fa') in 0.022542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UI button pack 2/Lime/2up-3.png
+  artifactKey: Guid(a9c50478fcea38a46a83d65af75b9add) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Lime/2up-3.png using Guid(a9c50478fcea38a46a83d65af75b9add) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6b1658ae0abbf1319e3a0e28bd1d33b3') in 0.023102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI button pack 2/Lime/2-right-3.png
+  artifactKey: Guid(fd82e17c8a162c44091fa02750844370) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Lime/2-right-3.png using Guid(fd82e17c8a162c44091fa02750844370) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '25c1003f6714294e0de9491a1e7af0a5') in 0.022091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Lime/empty-heart3.png
+  artifactKey: Guid(93276b1b21f3335459b2d152c03fb8c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Lime/empty-heart3.png using Guid(93276b1b21f3335459b2d152c03fb8c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fc75cdd87f9954f100bff8b68f4b078e') in 0.020604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.543644 seconds.
+  path: Assets/UI button pack 2/Lime/low-3.png
+  artifactKey: Guid(6fbc32ad5b36850478546f405bae927e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Lime/low-3.png using Guid(6fbc32ad5b36850478546f405bae927e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '572ff5000cbd0a3cd74a5493e00d251f') in 0.031782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Marron/2-3.png
+  artifactKey: Guid(e8aa53fd485b7114d801caf3347008ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Marron/2-3.png using Guid(e8aa53fd485b7114d801caf3347008ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '26d79622dcd969fac82f7d0fce42cbcb') in 0.023892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI button pack 2/Marron/Remove-people-red.png
+  artifactKey: Guid(ccb0b8e950cb9914e9e407b1065879f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Marron/Remove-people-red.png using Guid(ccb0b8e950cb9914e9e407b1065879f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '63c3a7e354d64218501a915f6bde6ac4') in 0.021310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Lime/star-3.png
+  artifactKey: Guid(817b43759c1a5f54eb050d0effe4d701) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Lime/star-3.png using Guid(817b43759c1a5f54eb050d0effe4d701) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e3e87851aa743b06831837c9500225a8') in 0.021730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UI button pack 2/Marron/Close-red.png
+  artifactKey: Guid(80dd3a4069a968c4f9ffc917aa4e33e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Marron/Close-red.png using Guid(80dd3a4069a968c4f9ffc917aa4e33e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '26a27919cafddee148aabb24a888cfef') in 0.022470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI button pack 2/Lime/no-adds-3.png
+  artifactKey: Guid(6917be72ba5e0c64c9cb9804d3bf9c0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Lime/no-adds-3.png using Guid(6917be72ba5e0c64c9cb9804d3bf9c0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '513b129d29ff051bfd21e8be8e61ceb2') in 0.022574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI button pack 2/Marron/7-rd.png
+  artifactKey: Guid(0790587e58fc50949972921b24689aa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Marron/7-rd.png using Guid(0790587e58fc50949972921b24689aa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4e0a332aaece02c211e77280b78d120c') in 0.020098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI button pack 2/Marron/location-2.png
+  artifactKey: Guid(2a26f3b138da8994b85ee9cab555ab29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Marron/location-2.png using Guid(2a26f3b138da8994b85ee9cab555ab29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b3f5590b53819e3a888032f5eb6e6ac4') in 0.024650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI button pack 2/Lime/share-with-people-3.png
+  artifactKey: Guid(2d50c9ee2d8f77c46af2833cbffe1bee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Lime/share-with-people-3.png using Guid(2d50c9ee2d8f77c46af2833cbffe1bee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd341aa6bd763b45612d1d3cbec57a637') in 0.022064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI button pack 2/Marron/hard-red.png
+  artifactKey: Guid(e3720041fd4b0d04a9fe43db4d968c43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Marron/hard-red.png using Guid(e3720041fd4b0d04a9fe43db4d968c43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae919290564e7d867fb79cd7228c4978') in 0.022480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI button pack 2/Marron/dOWN-RED.png
+  artifactKey: Guid(3f9cd6e02eecf48429c29e4bfdd2756b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Marron/dOWN-RED.png using Guid(3f9cd6e02eecf48429c29e4bfdd2756b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7484837c3418382fdad44d68df596bd1') in 0.025515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/UI button pack 2/Marron/3-right-red.png
+  artifactKey: Guid(e51d093c1b6f20e47b213d345e726ac8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Marron/3-right-red.png using Guid(e51d093c1b6f20e47b213d345e726ac8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae5192be462e8e9c654ba1e5a5eb3259') in 0.023234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UI button pack 2/Marron/backward-red.png
+  artifactKey: Guid(e74e553453e21164593f33aa5a8c70d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Marron/backward-red.png using Guid(e74e553453e21164593f33aa5a8c70d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'be28565d0d356b877672e4378cc31951') in 0.023610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Lime/music-3.png
+  artifactKey: Guid(e5c3618b8b685fd429a3128f4ab4f5ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Lime/music-3.png using Guid(e5c3618b8b685fd429a3128f4ab4f5ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '02f6202b7fe83e438cec5ff4aad42ada') in 0.023329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UI button pack 2/Marron/3-down-red.png
+  artifactKey: Guid(bae36df3c903e984e9542380a2af4339) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Marron/3-down-red.png using Guid(bae36df3c903e984e9542380a2af4339) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '60ab987d5dbab4f711271edbcce9950a') in 0.022432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI button pack 2/Lime/SKIP-3.png
+  artifactKey: Guid(f383cc2e627832644b9de9f17fd2740b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Lime/SKIP-3.png using Guid(f383cc2e627832644b9de9f17fd2740b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f71c2a208bfd4d77760f9783f249918') in 0.021487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UI button pack 2/Marron/Star-red.png
+  artifactKey: Guid(85e09144ae1d41b4a96d6e2af8fc74fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Marron/Star-red.png using Guid(85e09144ae1d41b4a96d6e2af8fc74fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9b33e0d507fd272badcec8ee5c5165cb') in 0.022932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI button pack 2/Lime/stop-3.png
+  artifactKey: Guid(bbfc595a1bf5261418ddf04432b21cb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Lime/stop-3.png using Guid(bbfc595a1bf5261418ddf04432b21cb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5432b19a20511aed0979eefeea93d194') in 0.023439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UI button pack 2/Lime/MISSION-3.png
+  artifactKey: Guid(cd23937d759bf8c499922eb49fad9b8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Lime/MISSION-3.png using Guid(cd23937d759bf8c499922eb49fad9b8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1dfeceeaae39d36a20273642ab9f8f70') in 0.022337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.306454 seconds.
+  path: Assets/UI button pack 2/Olive green/1-UP-GREEN.png
+  artifactKey: Guid(9b4e707969a4ef845a4e5079dab21dd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Olive green/1-UP-GREEN.png using Guid(9b4e707969a4ef845a4e5079dab21dd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2033cc1c09e58c6b52500e4c26609598') in 0.026286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Orange/7-O.png
+  artifactKey: Guid(81ba2203f7c582f4e94f68a5e306c04e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Orange/7-O.png using Guid(81ba2203f7c582f4e94f68a5e306c04e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5b9ce5d7a9bcf34d4589c12bbc506deb') in 0.022626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI button pack 2/Olive green/FREE-GREEN.png
+  artifactKey: Guid(e1d5a76f6d4cc6f44b56d4f5e309412b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Olive green/FREE-GREEN.png using Guid(e1d5a76f6d4cc6f44b56d4f5e309412b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '37916c7a22add5d290b643e4b542cd5b') in 0.021807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI button pack 2/Olive green/PHOTO-GREEN.png
+  artifactKey: Guid(39b73820dc5f73442a4ac230e922f894) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Olive green/PHOTO-GREEN.png using Guid(39b73820dc5f73442a4ac230e922f894) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '18e5f3bf1ad0919c40db8bb244ddd58a') in 0.024080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/UI button pack 2/Orange/5-3.png
+  artifactKey: Guid(2af1dc6978083e94f9f7a100a636543f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Orange/5-3.png using Guid(2af1dc6978083e94f9f7a100a636543f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '22dbf676ee64c98899c5bd27dbb14568') in 0.021443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/UI button pack 2/Olive green/7-green.png
+  artifactKey: Guid(6665dafb670891e4f8a3cec5126a8541) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Olive green/7-green.png using Guid(6665dafb670891e4f8a3cec5126a8541) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d5abfb9eab64dabb2bf255a167138d0') in 0.022917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Olive green/EASY-7.png
+  artifactKey: Guid(bce9a49e8e80fc644961896d11e7fed8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Olive green/EASY-7.png using Guid(bce9a49e8e80fc644961896d11e7fed8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fccb7315c18ef10bed2de890e44a77c7') in 0.023203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI button pack 2/Orange/33.png
+  artifactKey: Guid(8ac08a535dc483148a1852abac311cf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Orange/33.png using Guid(8ac08a535dc483148a1852abac311cf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5b3ee21282410f823dd53c09b7b7c036') in 0.020294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UI button pack 2/Olive green/9-green.png
+  artifactKey: Guid(7bb04caf83b32dc498c00628ff634d8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Olive green/9-green.png using Guid(7bb04caf83b32dc498c00628ff634d8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7a786566a4a4db63562e55070ea2ae3b') in 0.020923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI button pack 2/Olive green/edgw-green.png
+  artifactKey: Guid(2fa0d8555bd575f4aa90df35802c9688) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Olive green/edgw-green.png using Guid(2fa0d8555bd575f4aa90df35802c9688) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd283f2e849556d83090de5b092b87de2') in 0.023541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI button pack 2/Olive green/8-green.png
+  artifactKey: Guid(fa1fabe15cd516f4a8ec396f057feb1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Olive green/8-green.png using Guid(fa1fabe15cd516f4a8ec396f057feb1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ef9d221164fb140b278905401fc0c9c') in 0.023959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/UI button pack 2/Olive green/rect-1024256-green.png
+  artifactKey: Guid(67e55a34ba7cdfc459d1946cd40083e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Olive green/rect-1024256-green.png using Guid(67e55a34ba7cdfc459d1946cd40083e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '530236cea2baf3d8caa1133c57822c8f') in 0.022916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI button pack 2/Olive green/SEND-10.png
+  artifactKey: Guid(775fe09b1a9421e4ab844c72527faa93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Olive green/SEND-10.png using Guid(775fe09b1a9421e4ab844c72527faa93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dfa6e6e28709e8a028fd76aca61c3c2b') in 0.021673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UI button pack 2/Olive green/Pin-green.png
+  artifactKey: Guid(d67378a9f32e29f4894ceabda4f7e6c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Olive green/Pin-green.png using Guid(d67378a9f32e29f4894ceabda4f7e6c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3109c2bb3b8fab881e902cc2d19616da') in 0.022352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Olive green/3-green.png
+  artifactKey: Guid(a0e46518e1d77fc4a864192b8180ee1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Olive green/3-green.png using Guid(a0e46518e1d77fc4a864192b8180ee1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ce2ee198a7c365549ab688d672b84760') in 0.022111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI button pack 2/Orange/0-O.png
+  artifactKey: Guid(616d9a22417447c4fb5059d70476c351) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Orange/0-O.png using Guid(616d9a22417447c4fb5059d70476c351) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '209e31005867f3dbc02206c6c6f89d64') in 0.022148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI button pack 2/Olive green/Music-off.png
+  artifactKey: Guid(21ee617eca53ac34bb8e74fe5f4fbe56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Olive green/Music-off.png using Guid(21ee617eca53ac34bb8e74fe5f4fbe56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '539dd246c890f666baa74944ee795945') in 0.021545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI button pack 2/Olive green/Ok-green.png
+  artifactKey: Guid(fc4f52cd2cdbc184498e488fbdbbfe6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Olive green/Ok-green.png using Guid(fc4f52cd2cdbc184498e488fbdbbfe6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1bed3b88240b86a4a6b039e527120888') in 0.019131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI button pack 2/Olive green/LEFT-GREEN.png
+  artifactKey: Guid(3204f396eeb896d4a98911f1fed38d6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Olive green/LEFT-GREEN.png using Guid(3204f396eeb896d4a98911f1fed38d6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '395856671954c6dae2987791edeebb24') in 0.023886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.162586 seconds.
+  path: Assets/UI button pack 2/Orange/line-5.png
+  artifactKey: Guid(9e45dc3927ebd3b45a557972f719e738) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Orange/line-5.png using Guid(9e45dc3927ebd3b45a557972f719e738) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7ec0bc29dbbf4bf8a2ec33e62d560f4b') in 0.030141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Pink/3-down-1.png
+  artifactKey: Guid(9951406e1a1181d498711ecf789fedfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Pink/3-down-1.png using Guid(9951406e1a1181d498711ecf789fedfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7c947fcdd06b9adaa43dbd7341e1a23a') in 0.023830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UI button pack 2/Pink/ADD-MEMBERS-1.png
+  artifactKey: Guid(52b15343364c5594aa39c15e99a9b613) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Pink/ADD-MEMBERS-1.png using Guid(52b15343364c5594aa39c15e99a9b613) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1ad6364ff2762a8181a80e36c9e14dd2') in 0.024451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Purple/2-down-pink.png
+  artifactKey: Guid(f998f2ae00e8c754a8fa6e4bee66f07a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Purple/2-down-pink.png using Guid(f998f2ae00e8c754a8fa6e4bee66f07a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd8bc9f0de7ffc3b3f7a54c5e1e05356c') in 0.021173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UI button pack 2/Pink/71.png
+  artifactKey: Guid(9272f24b45407d64cac0d0633bd1657c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Pink/71.png using Guid(9272f24b45407d64cac0d0633bd1657c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '561a790344bce3fb94eabca35d8a4c73') in 0.021960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI button pack 2/Orange/setting-orange.png
+  artifactKey: Guid(f111df9c7f896c445a32e770c34bf508) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Orange/setting-orange.png using Guid(f111df9c7f896c445a32e770c34bf508) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd0736b89a7cf173689da47536f288de9') in 0.024848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI button pack 2/Pink/normal-1.png
+  artifactKey: Guid(9c69708d7eed0f542bd49b79f27b98ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Pink/normal-1.png using Guid(9c69708d7eed0f542bd49b79f27b98ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '695349cd4b0c146a59e07ab50f36256d') in 0.021819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI button pack 2/Orange/OK-ORANGE.png
+  artifactKey: Guid(07d7c26a12cee27408488a4771b6bd58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Orange/OK-ORANGE.png using Guid(07d7c26a12cee27408488a4771b6bd58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'edb0d164730427e2f0b6d7e48d8ba076') in 0.022836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/UI button pack 2/Pink/ok-1.png
+  artifactKey: Guid(b933593bf4fa2aa449de953ab831d6dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Pink/ok-1.png using Guid(b933593bf4fa2aa449de953ab831d6dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e254cd41bda439120abdf8e0c902964a') in 0.022415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Purple/LOW-PINK.png
+  artifactKey: Guid(a59034a0a44cd5f47a310280b346a291) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Purple/LOW-PINK.png using Guid(a59034a0a44cd5f47a310280b346a291) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1d0ab4da042b896dac7dabba46870807') in 0.021479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Pink/rounded-rect-1.png
+  artifactKey: Guid(49d59180e06a3f34992695b106cd123a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Pink/rounded-rect-1.png using Guid(49d59180e06a3f34992695b106cd123a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ad0cbaef1271610730c2b58c3438b4bd') in 0.024967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI button pack 2/Pink/achive-1.png
+  artifactKey: Guid(8d09286a50602dc48a1f6b088d098f95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Pink/achive-1.png using Guid(8d09286a50602dc48a1f6b088d098f95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '181b1838f4ef32fc555df7f4fea1473d') in 0.026819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UI button pack 2/Pink/plus-1.png
+  artifactKey: Guid(6ea9c90cb1ec75242a867f1557301219) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Pink/plus-1.png using Guid(6ea9c90cb1ec75242a867f1557301219) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fcc177cffd14ba9ba21504bbcebe4279') in 0.026380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI button pack 2/Purple/mission-pink.png
+  artifactKey: Guid(9233337c34f95b34ba0bbb9b21463b83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Purple/mission-pink.png using Guid(9233337c34f95b34ba0bbb9b21463b83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b75c352227989c4ffb46c10a1dd1a57a') in 0.022627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI button pack 2/Orange/mission-orange.png
+  artifactKey: Guid(fe19d9188172e6d4d9c1cc994768a995) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Orange/mission-orange.png using Guid(fe19d9188172e6d4d9c1cc994768a995) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4477efd52193b7c4526de3b532933d9b') in 0.021734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI button pack 2/Purple/Info-pink.png
+  artifactKey: Guid(3a4ba9f383647324cbf2bd79f5faacd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Purple/Info-pink.png using Guid(3a4ba9f383647324cbf2bd79f5faacd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c82a773322b6f54d759b79e031fc84de') in 0.022426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI button pack 2/Orange/upgrade-orange.png
+  artifactKey: Guid(aa69c89f999c166419a5b1f0c7522e1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Orange/upgrade-orange.png using Guid(aa69c89f999c166419a5b1f0c7522e1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd7d48759d877617601fe2a46a94c372b') in 0.023823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/UI button pack 2/Orange/round-orange.png
+  artifactKey: Guid(f810224ca1bd6c44aac37f774e40fc2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Orange/round-orange.png using Guid(f810224ca1bd6c44aac37f774e40fc2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f1094f377a06389599bd9a10e298e19b') in 0.023685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Purple/downlad-pink.png
+  artifactKey: Guid(756bd2e33ce70b14f90953091c3c64c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Purple/downlad-pink.png using Guid(756bd2e33ce70b14f90953091c3c64c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '16328927d9d106b16ee88ade497a1c5b') in 0.024273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UI button pack 2/Orange/no-add-orange.png
+  artifactKey: Guid(8bd4dc5e5b6d7bf4092f043b0ddf39ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Orange/no-add-orange.png using Guid(8bd4dc5e5b6d7bf4092f043b0ddf39ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '36f4c3b13422afac2805b4468181af61') in 0.022554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI button pack 2/Orange/LOW-ORANGE.png
+  artifactKey: Guid(2715eb16d8ba9fa41b5164477eb269ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Orange/LOW-ORANGE.png using Guid(2715eb16d8ba9fa41b5164477eb269ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2b367bfefe2aecb4d516cb0c3409dd12') in 0.022509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI button pack 2/Purple/normal-pink.png
+  artifactKey: Guid(13d29fd2095e1ec4f85093af75e57cb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Purple/normal-pink.png using Guid(13d29fd2095e1ec4f85093af75e57cb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b131b449cbf85b83424239f61822fb19') in 0.025231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/UI button pack 2/Purple/rectangle.png
+  artifactKey: Guid(b669acc4f05aae348aa5f1c07af2eac3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Purple/rectangle.png using Guid(b669acc4f05aae348aa5f1c07af2eac3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'da101c05f3726467e0139f4f00d82b5a') in 0.022824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI button pack 2/Red/ZOOM IN RED.png
+  artifactKey: Guid(40da72e1c5bd8cd46b091c51cd3b30e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Red/ZOOM IN RED.png using Guid(40da72e1c5bd8cd46b091c51cd3b30e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '36d0591714697a394409cfc7624da3ee') in 0.026151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/UI button pack 2/Red/1-red.png
+  artifactKey: Guid(483400697f6aa3d46b9004868b76ea17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Red/1-red.png using Guid(483400697f6aa3d46b9004868b76ea17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '99f60100cda10071f063a4be69c9cc4e') in 0.021765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI button pack 2/Voilet/2-LEFT-PURPLE.png
+  artifactKey: Guid(a5ca56bffe6f5414e820867b07ed3a36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Voilet/2-LEFT-PURPLE.png using Guid(a5ca56bffe6f5414e820867b07ed3a36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '67dda70cf6d78ad8e87dddb1368a7d7c') in 0.024955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI button pack 2/Red/ok-red.png
+  artifactKey: Guid(eee78d94d4bc436408d93e2b2eca38ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Red/ok-red.png using Guid(eee78d94d4bc436408d93e2b2eca38ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '02e760858552f55ba8964eca0a959ee0') in 0.021958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UI button pack 2/Red/edge-red.png
+  artifactKey: Guid(f5c9fa0ae2f032b419ead6eac5873732) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Red/edge-red.png using Guid(f5c9fa0ae2f032b419ead6eac5873732) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd71c080b661a8251769a76cc81bcfd49') in 0.021657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UI button pack 2/Voilet/1-DOWN-PURPLE.png
+  artifactKey: Guid(22323bd820bb5b34c80d3cb18a36b4cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Voilet/1-DOWN-PURPLE.png using Guid(22323bd820bb5b34c80d3cb18a36b4cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f49c56e4c1d5ce417b28c7e26054d5e8') in 0.025778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Red/music-off-red.png
+  artifactKey: Guid(d921465e0ff405a418c87ae0b8d96295) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Red/music-off-red.png using Guid(d921465e0ff405a418c87ae0b8d96295) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '02c648df7dec8d0d5de9a27ed81203de') in 0.024408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI button pack 2/Red/3-LEFT-RED.png
+  artifactKey: Guid(000eb60bb1593fa48a5943ebea799aef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Red/3-LEFT-RED.png using Guid(000eb60bb1593fa48a5943ebea799aef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9c12acdbb3a4464af16ab222a14d0ef5') in 0.025680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI button pack 2/Red/pin-red.png
+  artifactKey: Guid(8de26a790232eff409eba4da073d3931) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Red/pin-red.png using Guid(8de26a790232eff409eba4da073d3931) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ffc51c7d1d9b134b18b3b1ceeadc7b43') in 0.022840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Red/DOLLAR-RED.png
+  artifactKey: Guid(cabba5cdaefd8d84eb87d9cbc5c470bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Red/DOLLAR-RED.png using Guid(cabba5cdaefd8d84eb87d9cbc5c470bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '32445848ede9eca1f07c955c99a1f1ec') in 0.024284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Red/skip-red.png
+  artifactKey: Guid(cbef8bfb2bae7f34999c39c30fdfbe3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Red/skip-red.png using Guid(cbef8bfb2bae7f34999c39c30fdfbe3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '293df7761b6cf051d9a0daea2f40e7db') in 0.023999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI button pack 2/Red/forward-red.png
+  artifactKey: Guid(5acc77acf2371864eaf8dd290aa95e23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Red/forward-red.png using Guid(5acc77acf2371864eaf8dd290aa95e23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '46c509dd8343c5830bdfe0d432b8789f') in 0.021006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Voilet/1-purple.png
+  artifactKey: Guid(f225d9dc04f944c44b130b9347a77bca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Voilet/1-purple.png using Guid(f225d9dc04f944c44b130b9347a77bca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '893b6b71e2da72d1b6aeb47eb00767ea') in 0.023255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI button pack 2/Voilet/0-purple.png
+  artifactKey: Guid(382a318e37a17b748b460ea5992af75d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Voilet/0-purple.png using Guid(382a318e37a17b748b460ea5992af75d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fd2f7a75f506a41611d5d1fad4c9da62') in 0.023319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UI button pack 2/Pink/no-adds-1.png
+  artifactKey: Guid(2b0b0dc2e1e2ce64b876e796733ca7e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Pink/no-adds-1.png using Guid(2b0b0dc2e1e2ce64b876e796733ca7e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c698bda6270e2ad60867ac9a5dde847a') in 0.022347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/UI button pack 2/Red/SETTINGS-RED.png
+  artifactKey: Guid(3d199fc0d2e42374cba8339d063b9c3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Red/SETTINGS-RED.png using Guid(3d199fc0d2e42374cba8339d063b9c3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'da4d59e002e6547adc6292f9986948ba') in 0.025609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Red/8-red.png
+  artifactKey: Guid(faf7bab0843c5b34196d91f4458cdcc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Red/8-red.png using Guid(faf7bab0843c5b34196d91f4458cdcc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '15009341bdbe3fe0d0cbb6dbca1b4cb1') in 0.022960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI button pack 2/Pink/2-left-1.png
+  artifactKey: Guid(8700b2f3b7fec8d4e8c489ee7845ae70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Pink/2-left-1.png using Guid(8700b2f3b7fec8d4e8c489ee7845ae70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e12a18b739d7f20ba9049588518167db') in 0.019754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Red/COPY-RED.png
+  artifactKey: Guid(5206fb8e842a4a7448fc285a02822f46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Red/COPY-RED.png using Guid(5206fb8e842a4a7448fc285a02822f46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd3081e9873b3baf00575b514f8205ff0') in 0.023797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Pink/3-right-1.png
+  artifactKey: Guid(e3440c48e5f93444c8769fb4987e1b98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Pink/3-right-1.png using Guid(e3440c48e5f93444c8769fb4987e1b98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '340e32b682911396c54391bfd881a492') in 0.022262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI button pack 2/Red/3-red.png
+  artifactKey: Guid(389e64612310eab4796e2c061f015f63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Red/3-red.png using Guid(389e64612310eab4796e2c061f015f63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aefad45f6976a8fd3eb0042931df4d33') in 0.021225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/UI button pack 2/Voilet/sound-off-purple.png
+  artifactKey: Guid(6bfc0d8be2a0ebc49b0423202d3c8492) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Voilet/sound-off-purple.png using Guid(6bfc0d8be2a0ebc49b0423202d3c8492) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cbc60f3c0dd4f37bb78b1ada4e896507') in 0.023107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI button pack 2/Voilet/empty-heart-purple-.png
+  artifactKey: Guid(039246913ad8ec348a1068cb69736517) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Voilet/empty-heart-purple-.png using Guid(039246913ad8ec348a1068cb69736517) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd685f398debd794215156fd17a276ff0') in 0.022584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Voilet/remove-adds-piurple.png
+  artifactKey: Guid(a8c1726a994b9b447be9af871911eed0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Voilet/remove-adds-piurple.png using Guid(a8c1726a994b9b447be9af871911eed0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e409388c94f75c36c42a82571f9340da') in 0.022402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI button pack 2/Voilet/purple.png
+  artifactKey: Guid(45d05df6d9b4d4749998a1ca08c174a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Voilet/purple.png using Guid(45d05df6d9b4d4749998a1ca08c174a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '75b634392e1ca1dd0dc9f84d66332b1e') in 0.023043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UI button pack 2/Voilet/edge-purple.png
+  artifactKey: Guid(e89ef73e3132a7e40b9ba81953c1d378) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Voilet/edge-purple.png using Guid(e89ef73e3132a7e40b9ba81953c1d378) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd6e2bfe1238c38bb655acd0dee8bae83') in 0.023965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Voilet/SETTINGS-PURPLE.png
+  artifactKey: Guid(ea898fea8091a62488b02c9772152d14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Voilet/SETTINGS-PURPLE.png using Guid(ea898fea8091a62488b02c9772152d14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '489dfad15d7f80f2d6a076a9482c23f6') in 0.023089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UI button pack 2/Voilet/TICK-PURPLE.png
+  artifactKey: Guid(b597086e06bdedf488e25b11e7763efe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Voilet/TICK-PURPLE.png using Guid(b597086e06bdedf488e25b11e7763efe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '525c9f5e93dbe2f774072a0ffdd3176e') in 0.021982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UI button pack 2/Red/right-edge-red.png
+  artifactKey: Guid(ddd37265fab463c49a9267e182a8a148) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Red/right-edge-red.png using Guid(ddd37265fab463c49a9267e182a8a148) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3cf5638772f891e339ff40476e6fe62a') in 0.021140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UI button pack 2/Pink/81.png
+  artifactKey: Guid(fae7d8eadb44c924fabcafcf5c255398) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Pink/81.png using Guid(fae7d8eadb44c924fabcafcf5c255398) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c804edc0ae00a1c3b7cd03cec53a3fd') in 0.022894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Red/1024-256-red.png
+  artifactKey: Guid(c56fb3a662ae26e41b4f70c79dd6dd19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Red/1024-256-red.png using Guid(c56fb3a662ae26e41b4f70c79dd6dd19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f84d9e87f0ab32c223778f80ff80ddfd') in 0.022438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI button pack 2/Purple/share-with-people-pink.png
+  artifactKey: Guid(79caeb1bf2369ad42914e1945437fcc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Purple/share-with-people-pink.png using Guid(79caeb1bf2369ad42914e1945437fcc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '252298f35bf989d0747d073767ae6d90') in 0.021275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI button pack 2/Red/DOWN-RED.png
+  artifactKey: Guid(e4e76b793d075bb49898bedff2ca8a1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Red/DOWN-RED.png using Guid(e4e76b793d075bb49898bedff2ca8a1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '748b0546714b7b1e0363697205b56375') in 0.021869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI button pack 2/Pink/LOCK-1.png
+  artifactKey: Guid(f97fe84e35bb6d047bbaaf96499c6650) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI button pack 2/Pink/LOCK-1.png using Guid(f97fe84e35bb6d047bbaaf96499c6650) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aa4df17404040fc6773693b5b8c4fb2b') in 0.021183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

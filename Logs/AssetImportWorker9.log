@@ -1,0 +1,369 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.25f1 (530ae0ba3889) revision 5442272'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ko' Physical Memory: 65298 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+C:/bsh/Network/Deeplication
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+61059
+Successfully changed project path to: C:/bsh/Network/Deeplication
+C:/bsh/Network/Deeplication
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [71896] Host "[IP] 192.168.11.161 [Port] 0 [Flags] 2 [Guid] 3697028950 [EditorId] 3697028950 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GKJ93P0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [71896] Host "[IP] 192.168.11.161 [Port] 0 [Flags] 2 [Guid] 3697028950 [EditorId] 3697028950 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GKJ93P0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
+Refreshing native plugins compatible for Editor in 7.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.25f1 (530ae0ba3889)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/bsh/Network/Deeplication/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4090 (ID=0x2684)
+    Vendor:   NVIDIA
+    VRAM:     24142 MB
+    Driver:   31.0.15.5161
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005889 seconds.
+- Loaded All Assemblies, in  0.214 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 241 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.439 seconds
+Domain Reload Profiling: 651ms
+	BeginReloadAssembly (69ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (83ms)
+		LoadAssemblies (68ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (81ms)
+			TypeCache.Refresh (80ms)
+				TypeCache.ScanAssembly (72ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (439ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (406ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (306ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (68ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.347 seconds
+Refreshing native plugins compatible for Editor in 3.33 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.359 seconds
+Domain Reload Profiling: 705ms
+	BeginReloadAssembly (90ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (200ms)
+		LoadAssemblies (184ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (70ms)
+			TypeCache.Refresh (63ms)
+				TypeCache.ScanAssembly (52ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (360ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (268ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 6.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1578 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (60.1 KB). Loaded Objects now: 2038.
+Memory consumption went from 101.9 MB to 101.9 MB.
+Total: 2.392900 ms (FindLiveObjects: 0.118900 ms CreateObjectMapping: 0.033100 ms MarkObjects: 2.171300 ms  DeleteObjects: 0.068600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BGRemover.cs: e087a5bf7c69f405fbd04a84f293392d -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/CameraCapture.cs: 806076a5ad77345e27c018ae2c21a790 -> 0459e621d5b25adef65d4cc41acce5e5
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 24496.702855 seconds.
+  path: Assets/UI button pack 2/Blue/3-left-blue.png
+  artifactKey: Guid(dd0431127e1b9cc4081eb63b9b3f9f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI button pack 2/Blue/3-left-blue.png using Guid(dd0431127e1b9cc4081eb63b9b3f9f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06c317101ef3baf7e1128dabe4ccd6a') in 0.054809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.343674 seconds.
+  path: Assets/UI button pack 2/Blue/3-up-blue.png
+  artifactKey: Guid(3742b21d89c78b043a5f2ce17387bcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI button pack 2/Blue/3-up-blue.png using Guid(3742b21d89c78b043a5f2ce17387bcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fc534a2985995f1dade924ca63aa15') in 0.019418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.454432 seconds.
+  path: Assets/UI button pack 2/Blue/6-B.png
+  artifactKey: Guid(76faec1d41d541944b96082ce6063224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI button pack 2/Blue/6-B.png using Guid(76faec1d41d541944b96082ce6063224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6df171e68689300b7ea4f566ba42c92') in 0.013549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI button pack 2/Blue/7-B.png
+  artifactKey: Guid(e36ad7a713c439043a31259e49b0919b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI button pack 2/Blue/7-B.png using Guid(e36ad7a713c439043a31259e49b0919b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32bf9a02dfe58f4308dfda9267504846') in 0.011952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.314684 seconds.
+  path: Assets/UI button pack 2/Blue/8-B.png
+  artifactKey: Guid(f8199434b69ed564997c74e881a71d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI button pack 2/Blue/8-B.png using Guid(f8199434b69ed564997c74e881a71d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec13f312597a3439623317c3817ab2b4') in 0.014095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.055980 seconds.
+  path: Assets/UI button pack 2/Black/9-Black.png
+  artifactKey: Guid(6305948d6cf7cd24083c029b39e9635b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI button pack 2/Black/9-Black.png using Guid(6305948d6cf7cd24083c029b39e9635b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ac7dc729f2b612561c0f59b4522fcb') in 0.015363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.688549 seconds.
+  path: Assets/UI button pack 2/Blue/ADD-MEMBERS-BLUE.png
+  artifactKey: Guid(e2b16573f58f04a4daf53a37f0629fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI button pack 2/Blue/ADD-MEMBERS-BLUE.png using Guid(e2b16573f58f04a4daf53a37f0629fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505b3ea94d54ba3894294184a1d3f2cf') in 0.023824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UI button pack 2/Red/add-members-red.png
+  artifactKey: Guid(96b8178db64c74143aa796c1a9a831d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI button pack 2/Red/add-members-red.png using Guid(96b8178db64c74143aa796c1a9a831d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c484d422edd5cfbb1ee4ac17c8c3bd6a') in 0.015708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.231916 seconds.
+  path: Assets/UI button pack 2/Light Blue/back-2.png
+  artifactKey: Guid(9691eaf23c2fb434f8b2f3bf9bb712ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI button pack 2/Light Blue/back-2.png using Guid(9691eaf23c2fb434f8b2f3bf9bb712ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4471ced6195530738711aaa7c6bf34d') in 0.019276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.062215 seconds.
+  path: Assets/UI button pack 2/brown/BACK-BROWN.png
+  artifactKey: Guid(3d7369c883752b2448c50eaf216b2ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI button pack 2/brown/BACK-BROWN.png using Guid(3d7369c883752b2448c50eaf216b2ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45650b1314345d6a1c3f19568d326255') in 0.017888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.694789 seconds.
+  path: Assets/UI button pack 2/Light Blue/backward-2.png
+  artifactKey: Guid(da22c6c9ab513fb41b179fba127831c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI button pack 2/Light Blue/backward-2.png using Guid(da22c6c9ab513fb41b179fba127831c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29b204593b61eed785a01205263a367') in 0.016816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.061052 seconds.
+  path: Assets/UI button pack 2/Olive green/BACKWARD-GREEN.png
+  artifactKey: Guid(3c8d9a065b722f94db81cb25f47b0b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI button pack 2/Olive green/BACKWARD-GREEN.png using Guid(3c8d9a065b722f94db81cb25f47b0b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b5c963a84f0c3684a2437c531b79e4') in 0.015945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI button pack 2/Voilet/backward-purple.png
+  artifactKey: Guid(5cec8637e6f5319429ef53bb3e7308f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI button pack 2/Voilet/backward-purple.png using Guid(5cec8637e6f5319429ef53bb3e7308f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910d5497d9adec2ad832b1567377ae30') in 0.016586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.310745 seconds.
+  path: Assets/UI button pack 2/Blue/blur-blank.png
+  artifactKey: Guid(d8f8e49787fdffa40917efbab569a01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI button pack 2/Blue/blur-blank.png using Guid(d8f8e49787fdffa40917efbab569a01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44b76cb57b8817e84ed8fb7dabf8022') in 0.016126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.292705 seconds.
+  path: Assets/UI button pack 2/Black/Cart-Black.png
+  artifactKey: Guid(779aa0c73a8709f4ba22369a8c009d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI button pack 2/Black/Cart-Black.png using Guid(779aa0c73a8709f4ba22369a8c009d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919c73d0a4a538d26d0850bc9315d7bd') in 0.021598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.074590 seconds.
+  path: Assets/UI button pack 2/Blue/CHAT-BLUE.png
+  artifactKey: Guid(8504779166f4e6a459b70723e6109d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI button pack 2/Blue/CHAT-BLUE.png using Guid(8504779166f4e6a459b70723e6109d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53651b9b8c1ed5209aff94257afd82af') in 0.015435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.544851 seconds.
+  path: Assets/UI button pack 2/Blue/copy-blue.png
+  artifactKey: Guid(14617f09112af484cb57cc0d43e9a130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI button pack 2/Blue/copy-blue.png using Guid(14617f09112af484cb57cc0d43e9a130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ecb4db984a6da677a1591869a17b5c') in 0.017278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.770022 seconds.
+  path: Assets/UI button pack 2/Black/dollar-balck.png
+  artifactKey: Guid(18db977ef2725f043bec2c60f6c62819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI button pack 2/Black/dollar-balck.png using Guid(18db977ef2725f043bec2c60f6c62819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6411b09765195f1c06cf63e981de2e0') in 0.014228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.587834 seconds.
+  path: Assets/UI button pack 2/Black/Emply-heart-Balck.png
+  artifactKey: Guid(99dd12948db2d494aa70d6cff6ba7404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI button pack 2/Black/Emply-heart-Balck.png using Guid(99dd12948db2d494aa70d6cff6ba7404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e066451a9aa7e1600f3e5a12545fe3d') in 0.014861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.009648 seconds.
+  path: Assets/UI button pack 2/Black/FREE-BLACK.png
+  artifactKey: Guid(af7da31a2da126e4bb53cc0791a1157c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI button pack 2/Black/FREE-BLACK.png using Guid(af7da31a2da126e4bb53cc0791a1157c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15832957385f5811eeae6b71935962b5') in 0.016032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.080518 seconds.
+  path: Assets/UI button pack 2/Black/hard-black.png
+  artifactKey: Guid(7da91ad0b9d92b344b80ea73a3d05620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI button pack 2/Black/hard-black.png using Guid(7da91ad0b9d92b344b80ea73a3d05620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a202c3669968a2d351783c278277317e') in 0.019960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.222542 seconds.
+  path: Assets/UI button pack 2/Voilet/EDIT-PURPLE.png
+  artifactKey: Guid(b3abc278d13984c4bb86a4fb75f212c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI button pack 2/Voilet/EDIT-PURPLE.png using Guid(b3abc278d13984c4bb86a4fb75f212c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8116d3f59f5a01914ff760426a0bd083') in 0.017491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
